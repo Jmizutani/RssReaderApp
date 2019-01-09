@@ -12,6 +12,17 @@
 		B3837FA221DFA7E500FF33CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3837FA021DFA7E500FF33CF /* Main.storyboard */; };
 		B3837FA421DFA7E600FF33CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3837FA321DFA7E600FF33CF /* Assets.xcassets */; };
 		B3837FA721DFA7E600FF33CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3837FA521DFA7E600FF33CF /* LaunchScreen.storyboard */; };
+		B3837FAF21DFA8C200FF33CF /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3837FAE21DFA8C200FF33CF /* CAPSPageMenu.swift */; };
+		B3837FB821E0831500FF33CF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3837FB621E0831500FF33CF /* TableViewController.swift */; };
+		B3837FB921E0831500FF33CF /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3837FB721E0831500FF33CF /* TableViewController.xib */; };
+		B383BA6521E0897A007F5D79 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B383BA6321E0897A007F5D79 /* Alamofire.framework */; };
+		B383BA6621E0897A007F5D79 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B383BA6421E0897A007F5D79 /* SwiftyJSON.framework */; };
+		B383BA6A21E0A75F007F5D79 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383BA6821E0A75F007F5D79 /* FeedTableViewCell.swift */; };
+		B383BA6B21E0A75F007F5D79 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B383BA6921E0A75F007F5D79 /* FeedTableViewCell.xib */; };
+		B383BA6D21E0AAF3007F5D79 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383BA6C21E0AAF3007F5D79 /* Entry.swift */; };
+		B3EBCF1521E0F41C00371A73 /* TOWebViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EBCF1421E0F41C00371A73 /* TOWebViewController.framework */; };
+		B3EBCF1721E0F4C000371A73 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBCF1621E0F4C000371A73 /* DetailViewController.swift */; };
+		B3F6A85421E1DAE600A9E851 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6A85321E1DAE600A9E851 /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		B3837FA321DFA7E600FF33CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3837FA621DFA7E600FF33CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3837FA821DFA7E600FF33CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3837FAE21DFA8C200FF33CF /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = "../../../../Downloads/PageMenu-master/Classes/CAPSPageMenu.swift"; sourceTree = "<group>"; };
+		B3837FB621E0831500FF33CF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B3837FB721E0831500FF33CF /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		B383BA6321E0897A007F5D79 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B383BA6421E0897A007F5D79 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		B383BA6821E0A75F007F5D79 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		B383BA6921E0A75F007F5D79 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		B383BA6C21E0AAF3007F5D79 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		B3EBCF1421E0F41C00371A73 /* TOWebViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOWebViewController.framework; path = Carthage/Build/iOS/TOWebViewController.framework; sourceTree = "<group>"; };
+		B3EBCF1621E0F4C000371A73 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B3F6A85321E1DAE600A9E851 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F6A85421E1DAE600A9E851 /* SDWebImage.framework in Frameworks */,
+				B3EBCF1521E0F41C00371A73 /* TOWebViewController.framework in Frameworks */,
+				B383BA6521E0897A007F5D79 /* Alamofire.framework in Frameworks */,
+				B383BA6621E0897A007F5D79 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 			children = (
 				B3837F9B21DFA7E500FF33CF /* RssReaderApp */,
 				B3837F9A21DFA7E500FF33CF /* Products */,
+				B383BA6221E0897A007F5D79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +82,31 @@
 			isa = PBXGroup;
 			children = (
 				B3837F9C21DFA7E500FF33CF /* AppDelegate.swift */,
+				B3837FAE21DFA8C200FF33CF /* CAPSPageMenu.swift */,
 				B3837F9E21DFA7E500FF33CF /* ViewController.swift */,
 				B3837FA021DFA7E500FF33CF /* Main.storyboard */,
 				B3837FA321DFA7E600FF33CF /* Assets.xcassets */,
 				B3837FA521DFA7E600FF33CF /* LaunchScreen.storyboard */,
 				B3837FA821DFA7E600FF33CF /* Info.plist */,
+				B3837FB621E0831500FF33CF /* TableViewController.swift */,
+				B3837FB721E0831500FF33CF /* TableViewController.xib */,
+				B383BA6821E0A75F007F5D79 /* FeedTableViewCell.swift */,
+				B383BA6921E0A75F007F5D79 /* FeedTableViewCell.xib */,
+				B383BA6C21E0AAF3007F5D79 /* Entry.swift */,
+				B3EBCF1621E0F4C000371A73 /* DetailViewController.swift */,
 			);
 			path = RssReaderApp;
+			sourceTree = "<group>";
+		};
+		B383BA6221E0897A007F5D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6A85321E1DAE600A9E851 /* SDWebImage.framework */,
+				B3EBCF1421E0F41C00371A73 /* TOWebViewController.framework */,
+				B383BA6321E0897A007F5D79 /* Alamofire.framework */,
+				B383BA6421E0897A007F5D79 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +119,7 @@
 				B3837F9521DFA7E500FF33CF /* Sources */,
 				B3837F9621DFA7E500FF33CF /* Frameworks */,
 				B3837F9721DFA7E500FF33CF /* Resources */,
+				B383BA6721E08989007F5D79 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,20 +169,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3837FA721DFA7E600FF33CF /* LaunchScreen.storyboard in Resources */,
+				B383BA6B21E0A75F007F5D79 /* FeedTableViewCell.xib in Resources */,
 				B3837FA421DFA7E600FF33CF /* Assets.xcassets in Resources */,
 				B3837FA221DFA7E500FF33CF /* Main.storyboard in Resources */,
+				B3837FB921E0831500FF33CF /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B383BA6721E08989007F5D79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TOWebViewController.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3837F9521DFA7E500FF33CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B383BA6D21E0AAF3007F5D79 /* Entry.swift in Sources */,
 				B3837F9F21DFA7E500FF33CF /* ViewController.swift in Sources */,
 				B3837F9D21DFA7E500FF33CF /* AppDelegate.swift in Sources */,
+				B3837FAF21DFA8C200FF33CF /* CAPSPageMenu.swift in Sources */,
+				B3837FB821E0831500FF33CF /* TableViewController.swift in Sources */,
+				B383BA6A21E0A75F007F5D79 /* FeedTableViewCell.swift in Sources */,
+				B3EBCF1721E0F4C000371A73 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +361,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWKL669CPQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RssReaderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +383,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWKL669CPQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RssReaderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
