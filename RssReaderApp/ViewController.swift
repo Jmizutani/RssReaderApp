@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title="Dev News"
+        self.title="Yahoo! News"
         let navBar=self.navigationController?.navigationBar
         navBar!.barTintColor=UIColor.black
         navBar!.shadowImage=UIImage()
@@ -25,12 +25,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         var controllers: [UIViewController]=[]
         let feeds:[Dictionary<String,String>]=[
-            ["link":"https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Frss.xml","title":"主要"],
-            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fsports%2Frss.xml",
-             "title": "スポーツ"],
+            ["link":"https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Frss.xml", "title":"主要"],
             ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fdomestic%2Frss.xml", "title": "国内"],
-            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fworld%2Frss.xml",
-             "title": "国際"]]
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fworld%2Frss.xml", "title": "国際"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Feconomy%2Frss.xml", "title": "経済"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fentertainment%2Frss.xml", "title": "エンタメ"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fsports%2Frss.xml", "title": "スポーツ"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fcomputer%2Frss.xml", "title": "IT"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Fscience%2Frss.xml", "title": "科学"],
+            ["link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.yahoo.co.jp%2Fpickup%2Flocal%2Frss.xml", "title": "地域"]]
         for feed in feeds{
             let feedController=TableViewController(nibName:"TableViewController",bundle:nil)
             feedController.Parent=self
